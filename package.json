@@ -11,6 +11,7 @@
 	"scripts": {
 		"wasm": "wasm-pack build ./wasm-crate --target web",
 		"dev": "pnpm wasm && vite",
-		"build": "pnpm wasm && vite build"
+		"build": "pnpm wasm && vite build",
+		"preview": "pnpm wasm && vite preview"
 	}
 }
